@@ -1,0 +1,20 @@
+.gradio-container { max-width:1120px!important; margin:auto!important; padding:40px 24px!important; background:#101214!important; color:#e8e9e5!important; --body-background-fill:#101214; --block-background-fill:#191c1f; --input-background-fill:#121517; --border-color-primary:#303438; --body-text-color:#e8e9e5; --block-label-text-color:#b9bfbd; --input-text-color:#e8e9e5; --block-title-text-color:#e8e9e5; --body-text-color-subdued:#adb4b0; }
+body { background:#101214!important; }
+.studio-hero { padding:8px 0 32px; border-bottom:1px solid #303438; margin-bottom:24px; }
+.studio-brand { color:#bdcfa8; font-size:11px; letter-spacing:4px; font-weight:600; }
+.studio-hero h1 { font-size:38px!important; font-weight:500!important; letter-spacing:-1px; margin:20px 0 12px!important; color:#f0f1ec!important; }
+.studio-hero p { color:#a3ada8; font-size:14px; line-height:1.8; }
+.studio-tags { display:flex; gap:10px; margin-top:24px; flex-wrap:wrap; }
+.studio-tags span { border:1px solid #383f38; border-radius:30px; padding:6px 14px; font-size:12px; color:#c0cbb7; }
+#workspace, #output-panel { border:1px solid #303438; border-radius:18px; padding:22px; background:#171a1c; }
+#output-panel { min-height:320px; }
+.gradio-container .block { border-radius:10px!important; box-shadow:none!important; }
+.gradio-container input, .gradio-container textarea { background:#121517!important; color:#e8e9e5!important; }
+.gradio-container button { border-radius:9px!important; }
+#generate { background:#c3d5af!important; color:#172013!important; border:0!important; font-size:15px; min-height:52px; font-weight:600; margin-top:12px; }
+#generate:hover { background:#d5e6c3!important; }
+.gradio-container .prose { color:#b8c0bb; }
+.gradio-container .prose h3 { color:#e8e9e5; font-size:15px; font-weight:500; }
+.gradio-container footer { display:none!important; }
+.studio-note { text-align:center; color:#78827b; font-size:12px; padding:22px 0; }
+@media(max-width:760px) { .gradio-container {padding:20px 12px!important;} .studio-hero h1 {font-size:30px!important;} #workspace,#output-panel {padding:14px;} }
